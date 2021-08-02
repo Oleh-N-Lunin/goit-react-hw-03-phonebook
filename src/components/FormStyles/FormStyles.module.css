@@ -1,0 +1,84 @@
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headingForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.contactList {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.labelName {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.labelNumber {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  outline-color: rgba(7, 122, 216, 0.685);
+}
+
+.btnForm {
+  min-width: 120px;
+  color: #fff;
+  background-color: rgb(43, 163, 13);
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+.btnForm:hover {
+  background-color: rgb(83, 57, 201);
+}
+.btnForm:focus {
+  background-color: rgba(7, 122, 216, 0.685);
+}
+
+.containerSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  margin-bottom: 10px;
+}
+.btnList {
+  background-color: rgb(238, 18, 2);
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.btnList:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 67, 57);
+}
+.btnList:focus {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 67, 57);
+}
